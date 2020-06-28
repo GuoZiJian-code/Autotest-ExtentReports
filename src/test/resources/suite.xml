@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+    <!--<test name="login">
+        <classes>
+            <class name="com.testNG.suite.suiteConfig"></class>
+            <class name="com.testNG.suite.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="searchOffer">
+        <classes>
+            <class name="com.testNG.suite.suiteConfig"></class>
+            <class name="com.testNG.suite.SearchOfferTest"></class>
+        </classes>
+    </test>-->
+    <test name="GroupTest">
+        <classes>
+            <class name="com.testNG.groups.onMethod.GroupsOnMethod"></class>
+        </classes>
+    </test>
+</suite>
